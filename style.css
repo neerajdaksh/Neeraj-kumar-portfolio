@@ -25,7 +25,7 @@ body{
 }
 
 .container-center{
- max-width: 600px;
+ max-width: 600px; 
  margin: auto;
 
 }
@@ -37,14 +37,13 @@ body{
 
 .link-primary{
     background-color: var(--primary-color);
-    border-radius: 0.5rem;
-    color: white;
-    margin-top: 10rem;
+    border-radius: 1rem;
+    color: white; 
 }
 
 .link-secondry{
     color: var(--primary-color);
-    border-radius: 0.5rem;
+    border-radius: 1rem;
     border: 1px solid var(--primary-color);
 }
 
@@ -112,7 +111,16 @@ padding: 2rem;
 
 .section{
     padding: 2rem;
+    margin: 2rem 0;
+    border-radius: 1rem;
+     text-align: center;
 }
+
+.section h1,p,a{
+    padding: 1rem 0;
+    text-align: center;
+}
+
 
 .section h1{
     text-align: center;
