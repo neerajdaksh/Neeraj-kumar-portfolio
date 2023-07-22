@@ -65,7 +65,9 @@ body{
     text-align: right;
 }
 
-
+.navigation .link-active{
+    font-weight: bold;
+}
 
 
 
