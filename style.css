@@ -29,7 +29,10 @@ body{
  margin: auto;
 
 }
-
+.link{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
 /* lists css */
 
 .list-non-bullet{
@@ -52,6 +55,10 @@ body{
 .navigation .nav-brand{
     font-weight: bold;
     font-size: 1.1rem;
+}
+
+.navigation .link{
+    color: white;
 }
 
 
