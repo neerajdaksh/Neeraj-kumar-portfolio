@@ -137,14 +137,22 @@ padding: 2rem;
     padding: 2rem 1rem;
     text-align: center;
     color: white;
-    
+    margin-top: 1rem;
+}
+.footer-heading{
+    font-size: 1.5rem;
+    font-weight: bold;
 }
 
 .footer .link{
     color: white;
 }
 
+
 .footer ul{
     padding-inline-start:0px; 
-}
+    margin-top:25px; 
+} 
+
+
 
