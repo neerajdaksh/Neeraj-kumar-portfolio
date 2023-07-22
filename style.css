@@ -19,6 +19,7 @@ body{
 
 }
 
+/* container css */
 .container{
     padding: 0rem 1rem;
 }
@@ -27,6 +28,12 @@ body{
  max-width: 600px;
  margin: auto;
 
+}
+
+/* lists css */
+
+.list-non-bullet{
+ list-style:none;
 }
 
 
