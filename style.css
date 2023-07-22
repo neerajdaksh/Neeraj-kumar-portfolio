@@ -36,6 +36,11 @@ body{
  list-style:none;
 }
 
+.list-item-inline{
+    display: inline;
+}
+
+
 
 
 
