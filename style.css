@@ -30,9 +30,24 @@ body{
 
 }
 .link{
+    box-sizing: border-box;
     text-decoration: none;
     padding: 0.5rem 1rem;
 }
+
+.link-primary{
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+    margin-top: 10rem;
+}
+
+.link-secondry{
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+}
+
 /* lists css */
 
 .list-non-bullet{
