@@ -49,6 +49,11 @@ body{
     border-bottom-left-radius:1rem ;
 }
 
+.navigation .nav-brand{
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
 
 
 
