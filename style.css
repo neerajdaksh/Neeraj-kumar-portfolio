@@ -70,6 +70,27 @@ body{
 }
 
 
+/* header */
 
+.header{
+padding: 2rem;
+
+}
+
+.header .header-img{
+    max-width: 350px;
+    display:block;
+    margin: auto;
+}
+
+.header .header-heading{
+    text-align: center;
+    padding-top: 1rem;
+    color: var(--dark-gray);
+
+}
+.header .heading-inverted{
+    color: var(--primary-color);
+}
 
 
