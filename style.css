@@ -18,3 +18,18 @@ body{
     font-family: 'Montserrat', sans-serif;
 
 }
+
+.container{
+    padding: 0rem 1rem;
+}
+
+.container-center{
+ max-width: 600px;
+ margin: auto;
+
+}
+
+
+
+
+
