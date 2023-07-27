@@ -32,7 +32,8 @@ body{
 .link{
     box-sizing: border-box;
     text-decoration: none;
-    padding: 0.5rem 1rem;
+    padding: 0.6rem 1rem;
+    margin: 0.6rem;
 }
 
 .link-primary{
@@ -117,7 +118,7 @@ padding: 2rem;
 }
 
 .section h1,p,a{
-    padding: 1rem 0;
+    padding: 1.2rem 0;
     text-align: center;
 }
 
@@ -128,6 +129,24 @@ padding: 2rem;
 .ow{
     background-color: var(--off-white);
 }
+
+/* project section */
+.project-section{
+    text-align: center;
+    
+}
+.project-section ul li{
+    margin: 6rem 0;
+    padding: 2rem 0;
+    border-radius: 1rem;
+    
+}
+.project-section ul li h2,p,small,a{
+   margin: 0.5rem 0;
+
+}
+
+
 
 /* footer */
 
