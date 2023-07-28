@@ -147,6 +147,13 @@ padding: 2rem;
 }
 
 /* blog section */
+.section ul li{
+    padding: 1.5rem 8rem;
+    border-radius: 1rem;
+}
+.section ul li h2,small{
+    padding: 1.5rem 0;
+}
 
 /* footer */
 
