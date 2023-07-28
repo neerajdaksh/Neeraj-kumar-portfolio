@@ -9,6 +9,7 @@
 
 
 :root{
+  
     --primary-color:#581c87;
     --off-white:#F3F4F6;
     --dark-gray:#687280;
@@ -74,6 +75,11 @@ body{
 
 .navigation .link{
     color: white;
+}
+
+.navigation .link:hover{
+    background-color:#b353fc;
+    border-radius: 1rem;
 }
 
 .navigation .nav-pills{
