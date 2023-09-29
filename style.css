@@ -11,12 +11,24 @@
 :root{
   
     --primary-color:#581c87;
+    --bg-color:#fff;
     --off-white:#F3F4F6;
     --dark-gray:#687280;
+    --yellow-color:#FFFF00;
+    --black-color:#000;
 }
+
+.dark{
+    --primary-color:#171717;
+    --bg-color:#000000;
+    --dark-gray:#FFFFFF;
+    
+}
+
 
 body{
     font-family: 'Montserrat', sans-serif;
+    background-color: var(--bg-color);
 
 }
 
@@ -30,6 +42,7 @@ body{
  margin: auto;
 
 }
+
 .link{
     box-sizing: border-box;
     text-decoration: none;
@@ -66,6 +79,9 @@ body{
     color: white;
     padding: 1rem;
     border-bottom-left-radius:1rem ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .navigation .nav-brand{
@@ -89,6 +105,38 @@ body{
 .navigation .link-active{
     font-weight: bold;
 }
+
+
+/* dark mode button css */
+.navigation .nav-toggle-btns .mode-btn{
+    border-radius: 20px;
+    width: 80px;
+    height: 30px;
+    border: none;
+    position: relative;
+}
+
+.navigation .nav-toggle-btns .mode-btn .circle{
+border-radius: 50%;
+ width: 23px;
+height: 23px; 
+position: absolute;
+top: 3px;
+cursor: pointer;
+}
+
+ .light-circle{
+transition: 0.3s;    
+transform: translateX(-35px);
+background-color:var(--yellow-color);
+}
+
+.dark-circle{
+ transition: 0.3s;
+transform: translateX(15px);  
+background-color: var(--black-color);
+}
+
 
 
 /* header */
