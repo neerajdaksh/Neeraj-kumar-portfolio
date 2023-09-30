@@ -333,7 +333,24 @@ color: var(--section-text-color);
    color: red;
 }
   
-  
+  /* blog section */
+.blog-section{
+ width:98%; 
+ padding: 0 1rem;
+ 
+}  
+.blog-section ul li{
+ padding: 0px;
+ height: 210px;
+     
+}
+.blog-section ul li h2,small{
+font-size: 1rem;    
+}
+
+.blog-section p{
+font-size: 0.7rem;
+}
 
 }
 
