@@ -271,5 +271,69 @@ color: var(--section-text-color);
     margin-top:25px; 
 } 
 
+.hamburger-btn-container{
+    display: none;
+}
+.hamburger{
+    display: none;
+}
 
+/* ************ Responsive css for 630px***************** */
+
+@media (max-width:630px) {
+    
+  .navigation{
+    justify-content: space-between;
+    position: relative;
+  }  
+  .nav-pills{
+    display: none;
+  }
+
+  .hamburger-btn-container{
+    display: block;
+    
+  }
+   
+  .hambuger-btn{
+    width: 2rem;
+    background-color: transparent;
+    color: #fff;
+    font-size: 1.5rem;
+    border: none;
+    cursor: pointer;
+  }
+
+  .hamburger{
+    display: block;
+    width: 100%;    
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.897);     
+   top: 0;
+   left: 0; 
+   border-bottom-right-radius: 5rem;
+   transition: 0.5s;
+   transform: translateY(-11rem);
+   
+}
+  .hamburger ul li{
+    padding: 0.8rem ;
+  }
+
+  .hamburger ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+
+  }
+  #close-btn{     
+    border: none;
+   font-size: 2rem; 
+   background-color: black;
+   color: red;
+}
+  
+  
+
+}
 
