@@ -234,7 +234,7 @@ padding: 6rem 2rem;
 }
 .project-section ul li h2,p,small,a{
    margin: 0.5rem 0;
-
+color: var(--section-text-color);
 }
 
 /* blog section */
