@@ -207,7 +207,7 @@ padding: 6rem 2rem;
      width: 70%;
 }
 
-.section h1,p,a{
+.section h1,p,a,h2{
     padding: 0.9rem 0;
     text-align: center;
     color: var(--section-text-color);
