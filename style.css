@@ -14,7 +14,9 @@
     --primary-heading-color:#3F3D56;
     --catch-heading:#581c87;
     --social-icon:#0000EE;  
-    --off-white:#F3F4F6;
+    --btn-color:#581c87;
+    
+    --off-white:#d7d7d8;
     --dark-gray:#E5E5E5;
     --yellow-color:#FFFF00;
     --black-color:#000;
@@ -60,15 +62,15 @@ body{
 }
 
 .link-primary{
-    background-color: var(--primary-color);
+    background-color: var(--btn-color);
     border-radius: 1rem;
     color: white; 
 }
 
 .link-secondry{
-    color: var(--primary-color);
+    color: var(--btn-color);
     border-radius: 1rem;
-    border: 1px solid var(--primary-color);
+    border: 1px solid var(--btn-color);
 }
 
 /* lists css */
@@ -206,7 +208,7 @@ padding: 6rem 2rem;
 }
 
 .section h1,p,a{
-    padding: 1.2rem 0;
+    padding: 0.9rem 0;
     text-align: center;
     color: var(--section-text-color);
 }
